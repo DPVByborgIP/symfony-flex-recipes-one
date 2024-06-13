@@ -1,0 +1,23 @@
+{
+    "manifests": {
+        "acme/private-bundle": {
+            "manifest": {
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+                "config/services.yaml": {
+                    "contents": [
+                        "# config/services.yaml",
+                        "services:",
+                        "  App\\SimplePhpFlexApp\\HelloWorld:",
+                        "    public: true"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "81e6e5c25d17168b144127650c4d69f0958028da"
+        }
+    }
+}

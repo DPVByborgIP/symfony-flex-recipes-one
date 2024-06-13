@@ -1,14 +1,20 @@
 {
+    "aliases": [],
     "recipes": {
         "acme/private-bundle": [
             "1.0"
         ]
     },
+    "recipe-conflicts": [],
+    "versions": [],
     "branch": "main",
     "is_contrib": true,
     "_links": {
         "repository": "github.com/DPVByborgIP/symfony-flex-recipes-one",
         "origin_template": "{package}:{version}@github.com/DPVByborgIP/symfony-flex-recipes-one:main",
-        "recipe_template": "https://api.github.com/repos/DPVByborgIP/symfony-flex-recipes-one/contents/{package_dotted}.{version}.json"
+        "recipe_template": "https://raw.githubusercontent.com/DPVByborgIP/symfony-flex-recipes-one/flex/main/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/DPVByborgIP/symfony-flex-recipes-one/flex/main/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
     }
 }
