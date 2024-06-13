@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "acme/private-bundle": {
+        "acme/simple-php-flex-recipes": {
             "manifest": {
                 "copy-from-recipe": {
                     "config/": "%CONFIG_DIR%"

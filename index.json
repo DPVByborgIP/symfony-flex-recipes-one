@@ -1,7 +1,7 @@
 {
     "aliases": [],
     "recipes": {
-        "acme/private-bundle": [
+        "acme/simple-php-flex-recipes": [
             "1.0"
         ]
     },
