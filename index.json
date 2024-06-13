@@ -1,11 +1,14 @@
 {
-    "acme/simple-php-flex-recipes": {
-        "1.0": {
-            "manifest": {
-                "bundles": {
-                    "Acme\\SimplePhpFlexRecipes\\AcmeSimplePhpFlexRecipesBundle": ["all"]
-                }
-            }
-        }
+    "recipes": {
+        "acme/simple-php-flex-recipes": [
+            "1.0"
+        ]
+    },
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/DPVByborgIP/symfony-flex-recipes-one",
+        "origin_template": "{package}:{version}@github.com/DPVByborgIP/symfony-flex-recipes-one:main",
+        "recipe_template": "https://api.github.com/repos/DPVByborgIP/symfony-flex-recipes-one/contents/index.json"
     }
 }
