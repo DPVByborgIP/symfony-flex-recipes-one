@@ -1,0 +1,16 @@
+{
+    "name": "acme/simple-php-flex-recipes",
+    "description": "# Test with Symfony Flex",
+    "type": "library",
+    "require": {
+        "php": ">=8.2",
+        "composer-plugin-api": "^2.1",
+        "symfony/flex": "^2.4.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    },
+    "minimum-stability": "dev"
+}
